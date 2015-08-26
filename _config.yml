@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Some Coding Thoughts
+tagline:             ''
+description:         'Send feedback and comments to <a href="mailto:blog@melke.nu">mm@melke.nu</a>'
+url:                 http://blog.melke.nu
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Mats Melke
+  url:               https://twitter.com/matsmelke
+  email:             blog@melke.nu
+
+# Custom vars
+version:             1.0.0
