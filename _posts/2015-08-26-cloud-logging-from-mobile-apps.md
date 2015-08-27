@@ -26,7 +26,7 @@ in the vast amount of logs that your users will create?
 
 ***
 
-Cloud logging is basically services that will capture logs form all kinds of sources and applications. These logs
+Cloud logging is basically services that will capture logs from all kinds of sources and applications. These logs
 will then be indexed for searching. There is normally a web UI that gives you advanced tools for searching and analyzing the log data.
 
 There are many players in the cloud logging market: [Splunk](http://www.splunk.com/), [Sumo Logic](https://www.sumologic.com/), [Loggly](https://www.loggly.com/) etc. Some of these are free up to a certain level of data volumes and retention periods. There are also open source log management systems that work the same way, but you will need to host the servers yourself.
@@ -45,7 +45,10 @@ I decided to write an Objective-C library, [LogglyLogger-CocoaLumberjack](https:
 I chose to integrate against Loggly, because they have an excellent REST API for remote logging. For Objective-C projects, I would definitely recommend using CocoaLumberjack.
 
 When Swift came along, it turned out that CocoaLumberjack didn't work well in Swift projects, and at the time of writing this article, there are still some issues with using CocoaLumberjack from Swift. Also, I wanted a much smaller framework, so I wrote a minimalistic logging framework in Swift called [SlimLogger](https://github.com/melke/SlimLogger), that can be used for console logging, for Loggly logging, or for both.
-(If you prefer another cloud logging service than Loggly, please contribute to SlimLogger by adding a class, `SlimYourFavoriteServiceDestination` that implements the SlimLogger protocol `LogDestination`. You can have a look in `SlimLogglyDestination.swift` to see how it can be done.)
+
+<div class="message">
+If you prefer another cloud logging service than Loggly, please contribute to SlimLogger by adding a class, `SlimYourFavoriteServiceDestination` that implements the SlimLogger protocol `LogDestination`. You can have a look in `SlimLogglyDestination.swift` to see how it can be done.
+</div>
 
 ***
 
