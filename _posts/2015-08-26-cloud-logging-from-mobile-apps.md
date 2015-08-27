@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cloud Logging from mobile apps
-comments: true
+comments: True
 ---
 
 During development of a mobile app you have full control over what's happening in your code.
