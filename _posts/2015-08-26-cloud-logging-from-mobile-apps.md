@@ -8,7 +8,7 @@ During development of a mobile app you have full control over what's happening i
 You have the debugger, you have console logging, performance profiling etc.
 However, **after you have released your app, you have almost no tools for checking how your app
 behaves in the wild!** In most cases, you get your feedback from emails to your
-support address, (bad) App Store reviews and crash reporting (if you included Crashlytics or some similar tool in your app).
+support address, App Store reviews and crash reporting (if you included Crashlytics or some similar tool in your app).
 
 Crash reporting services are great.
 But, there is one obvious limitation with crash reporting: your app needs to crash before any information
