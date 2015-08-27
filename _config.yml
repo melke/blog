@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               Some Coding Thoughts
 tagline:             ''
 description:         'Send feedback and comments to <a href="mailto:blog@melke.nu">mm@melke.nu</a>'
-url:                 http://blog.melke.nu
+url:                 http://codingthoughts.melke.nu
 baseurl:             ''
 paginate:            5
 
