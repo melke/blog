@@ -29,3 +29,8 @@ body {
 .message {
   background-color: #eeeeee;
 }
+
+/* greyer hr */
+hr {
+  border-top: 1px solid #ddd;
+}
