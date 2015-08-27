@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I'm a software architect/developer working in Stockholm, Sweden.
+I'm a software architect/developer living in Stockholm, Sweden.
 
 * [Github profile](https://github.com/melke)
 * [Twitter](https://twitter.com/matsmelke)
