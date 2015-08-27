@@ -24,3 +24,8 @@ pre {
 body {
   background-color: #f8f8f8;
 }
+
+/* Greyer message */
+.message {
+  background-color: #eeeeee;
+}
